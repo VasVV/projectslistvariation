@@ -1,0 +1,107 @@
+.app {
+  text-align: center;
+  margin-top: 10vh !important;
+}
+
+.app__addproject__modal  {
+  position: absolute;
+  top: 5% !important;
+  left: 10% !important;
+  padding: 50px;
+  width: 75vw;
+  overflow: scroll !important;
+  display: block;
+  height: 90%;
+}
+
+
+
+.app__addproject__modal__form__inner  {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+}
+
+
+.app__projectslist__modal {
+  position: absolute;
+  top: 5% !important;
+  left: 10% !important;
+  padding: 50px;
+  width: 75vw
+
+}
+
+
+.app__addproject__modal__form__inner__field  {
+  margin: 10px !important
+}
+
+.app__projectslist__modal__form__inner {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+}
+
+.app__projectslist__modal__form__inner__field {
+  margin: 10px !important
+}
+
+.app__addproject__btn {
+  margin-top: 10px !important
+}
+
+.app__projectslist__btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__projectslist__btns__participate-btn {
+  width: 22%;
+  align-self: center;
+  margin-top: 20px !important
+}
+
+a {
+  text-decoration: none
+}
+
+
+.app__contactform {
+  margin-top: 10vh !important
+}
+
+.app__contactform__form {
+  justify-self: center;
+  align-self: center;
+}
+
+.app__contactform__form__inner__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-right:25%;
+ 
+}
+
+.app__contactform__form__inner__wrapper__field {
+  margin: 10px !important
+}
+
+.app__nav {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+  width: 100%;
+}
+
+.about {
+  margin-top: 10vh
+}
+
+.teams {
+  margin-top: 10vh
+}
